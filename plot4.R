@@ -16,5 +16,5 @@ lines(subsetdata$datetime,subsetdata$Sub_metering_3,col="blue")
 legend("topright",lwd=1,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty = "n")
 with(subsetdata,plot(datetime,Global_reactive_power,type="l"))
 
-dev.copy(png,file="figure/plot4.png",width=480,height=480)
+dev.copy(png,file="plot4.png",width=480,height=480)
 dev.off()
